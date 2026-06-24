@@ -1,0 +1,21 @@
+{
+    "in_channels": 1,
+    "max_negative_change": 7,
+    "max_positive_change": 16,
+    "cond_channels": 3,
+    "latent_channels": 4,
+    "skip_dropout": 0.01505126601752807,
+    "n_layers": 4,
+    "kernel_size": 7,
+    "base_channels": 64,
+    "groups": 8,
+    "padding_mode": "circular",
+    "activation": "leaky_relu",
+    "pool_type": "max",
+    "temp_channel": true,
+    "temp_range": [
+        275.0,
+        325.0
+    ],
+    "use_pooling": true
+}
