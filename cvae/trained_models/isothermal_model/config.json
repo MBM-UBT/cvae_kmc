@@ -1,0 +1,18 @@
+{
+    "in_channels": 1,
+    "max_negative_change": 7,
+    "max_positive_change": 13,
+    "cond_channels": 2,
+    "latent_channels": 8,
+    "skip_dropout": 0.02480010593203333,
+    "n_layers": 4,
+    "kernel_size": 3,
+    "base_channels": 64,
+    "groups": 8,
+    "padding_mode": "circular",
+    "activation": "gelu",
+    "pool_type": "max",
+    "temp_channel": false,
+    "temp_range": null,
+    "use_pooling": true
+}
